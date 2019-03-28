@@ -1,0 +1,53 @@
+@import "_variables";
+
+body {
+  //background: url('http://localhost/secrets/assets/images/background4.jpg');
+  ////background: url('http://movieserver.hopto.org/secrets/assets/images/background4.jpg');
+  ///*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://movieserver.hopto.org/movieserver/assets/images/background6.jpg');*/
+  //
+  //background-repeat: no-repeat;
+  //background-position: center center;
+  //background-attachment: fixed;
+  //background-size: cover;
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+
+  background-color: @color-gray-light;
+  font-size: @font-size;
+}
+
+h3 {
+  .h3;
+}
+
+h6 {
+  .h6;
+}
+
+#master-content {
+  padding-top: 70px;
+
+  #master-content-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+}
+
+.btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  &.size {
+    width: @size-btn-normal;
+  }
+
+  &.size-small {
+    width: @size-btn-small;
+  }
+  &:focus, &:active{
+    outline:none !important;
+  }
+
+}

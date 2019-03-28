@@ -1,0 +1,41 @@
+/*
+* COLORS
+*/
+/*
+* FONTS
+*/
+body {
+  background-color: #DDD;
+  font-size: 1em;
+}
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.8em;
+}
+h6 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+#master-content {
+  padding-top: 70px;
+}
+#master-content #master-content-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.btn.size {
+  width: 200px;
+}
+.btn.size-small {
+  width: 100px;
+}
+.btn:focus,
+.btn:active {
+  outline: none !important;
+}

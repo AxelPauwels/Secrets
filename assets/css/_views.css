@@ -1,0 +1,16 @@
+/*
+* COLORS
+*/
+/*
+* FONTS
+*/
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn.size {
+  width: 200px;
+}
+.btn.size-small {
+  width: 100px;
+}
